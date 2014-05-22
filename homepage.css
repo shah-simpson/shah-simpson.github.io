@@ -1,0 +1,333 @@
+/*******************************
+            Global
+*******************************/
+
+html,
+body {
+  font-size: 18px;
+  height: 100%;
+}
+
+body {
+  font-family: 'Quicksand', sans-serif;
+  background: #FFFFFF;
+  margin: 0px;
+  padding: 0px;
+  color: #555555;
+  text-rendering: optimizeLegibility;
+  min-width: 320px;
+}
+
+.nav {    
+  position: fixed;
+  overflow:hidden;
+  top:0;
+  right:0;
+  left:0;
+  width: 100%;
+  height: 45px;
+  z-index: 100;
+  overflow:hidden;
+  
+} 
+
+.nav ul{
+  float:right;
+  padding:0px;
+  margin:0px
+}
+
+.nav li{
+  display:block;
+  float:left;
+  font-size:14px;
+  text-transform:uppercase;
+  
+  font-weight:600
+}
+
+.nav li:hover a{
+  color:#343185
+}
+
+.nav li a{
+  float:left;
+  padding:42px 25px
+}
+
+.logo {
+  padding:32px 0px;
+  float:left;
+  top:0;
+
+}
+
+.main-image{
+  margin-top:40px;
+  width:100%;
+  height:600px;
+  background:url(../try6.jpg) no-repeat center center;
+  background-position:cover;
+  background-color:#343185;
+  -webkit-background-size:cover;
+  -moz-background-size:cover;
+  -o-background-size:cover;
+  background-size:cover;
+  position:relative;
+
+}
+
+.main-image .container{
+  font-family:"CODE";
+  overflow:hidden;
+  margin-left:25px;
+}
+
+.main-image-text{
+  text-shadow: 3px 1px #212110;
+  margin-top:25px;
+
+}
+
+
+#header {    margin-top: 50px; } 
+
+/*******************************
+          UI Overrides
+*******************************/
+
+@font-face{
+font-family:CODE;
+src: url('Code_Pro_Demo-webfont.eot');
+src: url('WebFont.eot?#iefix') format('embedded-opentype'),
+	url('Code_Pro_Demo-webfont.woff') format('woff'),
+	url('Code_Pro_Demo-webfont.ttf') format('truetype'),
+	url('Code_Pro_Demo-webfont.svg#webfont') format('svg');
+}
+
+@font-face {
+font-family: Quicksand;
+src: url("Quicksand-Regular.otf") format("opentype");
+}
+
+.main-image-text h1{
+  font-size:100px;
+  margin:0px;
+  color:#ffffff;
+  overflow:hidden;
+  line-height:95%;
+  text-shadow: 5px 3px #212110;
+  
+}
+
+.main-image-text norm{
+  font-size:55px;
+  margin:0px;
+  color:#ffffff;
+  line-height:105%;
+}
+
+.main-image-text pop{
+  font-weight:900;
+  font-size:90px;
+  margin:0px;
+  color:#779BC3
+
+}
+
+.main-image-text info{
+  font-family: 'Quicksand', sans-serif;
+  font-size:35px;
+  margin:0px;
+  color:#ffffff;
+  position:absolute;
+  bottom:10px;
+
+}
+
+.main-image-text logo{
+  margin:0px;
+  position:absolute;
+  bottom:15px;
+  right:15px;
+
+}
+
+
+.info{
+  position:relative;
+  bottom:0px;
+  font-size:45px;
+  margin:0px;
+}
+
+
+.ui.header {
+  font-family: 'Quicksand', sans-serif;
+}
+
+.ui.header,
+h1,
+h2 {
+  font-weight: normal !important;
+}
+
+h1.ui.header {
+  font-size: 3em;
+}
+
+h4.ui.header,
+h5.ui.header,
+.ui.icon.header {
+  font-weight: bold !important;
+}
+
+.ui.button {
+  font-weight: normal;
+  text-decoration: none;
+}
+
+a {
+  color: #009FDA;
+  text-decoration: none;
+  -webkit-transition: color 0.3s ease;
+  -moz-transition: color 0.3s ease;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #00BAFF;
+}
+
+p a {
+  font-weight: bold;
+}
+
+/*******************************
+            Global
+*******************************/
+
+.menu .right.menu > .mobile.item {
+  display: none;
+}
+
+.ui.page.grid.segment {
+  padding-top: 3.5rem;
+  padding-bottom: 3.5rem;
+}
+
+.masthead.segment {
+  background-image: url(images/bg.jpg);
+  -webkit-background-size: cover;
+  background-size: cover;
+  margin: 0em;
+  padding-top: 4rem;
+  overflow: hidden;
+  -webkit-box-shadow: 0 -20px 10px 0 rgba(0, 0, 0, 0.1) inset !important;
+  box-shadow: 0 -20px 10px 0 rgba(0, 0, 0, 0.1) inset !important;
+}
+
+.masthead.segment .column {
+  position: relative;
+}
+
+.masthead.segment .information {
+  margin: 3em 1em 1em 280px;
+}
+
+.masthead.segment .information p {
+  max-width: 600px;
+  margin: 0em 0px 2em 0em;
+  font-size: 1.2em;
+}
+
+.masthead.segment h1.ui.header .sub {
+  font-size: 0.7em;
+}
+
+.masthead.segment .image {
+  position: absolute;
+  left: 0%;
+  bottom: -110px;
+}
+
+.overview .divided.grid .header + p {
+  min-height: 100px;
+}
+
+.ui.shape .icon,
+.link.list .icon {
+  margin: 0em;
+  padding: 0em;
+}
+
+.ui.cube.shape .side {
+  background-color: transparent;
+}
+
+/*******************************
+          Responsive
+*******************************/
+
+/* Mobile Only */
+
+@media only screen and (max-width : 768px) {
+  .ui.page.grid.segment {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+
+  .menu .right.menu > .item {
+    display: none;
+  }
+
+  .menu .right.menu > .mobile.item {
+    display: block;
+  }
+
+  h1.ui.header {
+    font-size: 1.5em;
+  }
+
+  .masthead.segment {
+    -webkit-background-size: auto;
+    background-size: auto;
+  }
+
+  .masthead.segment .information {
+    margin-left: 190px;
+  }
+
+  .masthead.segment .image {
+    bottom: -65px;
+    width: 150px;
+  }
+
+  .masthead.segment .button {
+    font-size: 1rem;
+  }
+
+  .overview .divided.grid .header .icon {
+    font-size: 1.5em;
+  }
+
+  .overview .divided.grid .header + p {
+    min-height: 0px;
+  }
+
+  .masthead.segment .column {
+    font-size: 0.7rem;
+  }
+
+  .masthead.segment .column p {
+    display: none;
+  }
+
+  .selection.list .right.floated {
+    display: none;
+  }
+}
+
+@media only screen and (max-width : 1000px) {
+
+}
