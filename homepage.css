@@ -265,6 +265,11 @@ p a {
   background-color: transparent;
 }
 
+.ui.menu.grid>.computer.only.row {
+  padding:0;
+  margin-top:0;
+}
+
 /*******************************
           Responsive
 *******************************/
@@ -277,8 +282,14 @@ p a {
     padding-bottom: 2rem;
   }
 
+  .main-image .container {
+    font-family:"CODE";
+    font-size: 1.5em;
+  }
+
+
   .menu .right.menu > .item {
-    display: none;
+    font-size: 1em;
   }
 
   .menu .right.menu > .mobile.item {
