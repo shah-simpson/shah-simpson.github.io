@@ -302,6 +302,7 @@ p a {
   .masthead.segment {
     -webkit-background-size: auto;
     background-size: auto;
+    font-size: 1.2em;
   }
 
   .masthead.segment .information {
