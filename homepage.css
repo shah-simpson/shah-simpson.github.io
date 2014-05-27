@@ -94,31 +94,6 @@ body {
   width:100%;
 }
 
-.main-image-mobile{
-  width:100%;
-  height:300px;
-  background:url(../Site_Images/bg.jpg) no-repeat center center;
-  background-position:cover;
-  background-color:#343185;
-  -webkit-background-size:cover;
-  -moz-background-size:cover;
-  -o-background-size:cover;
-  background-size:cover;
-  position:relative;
-
-}
-
-.main-image-mobile .container{
-  font-famil:"CODE";
-  overflow:hidden;
-}
-
-.main-image-mobile-text{
-  text-shadow: 3px 1px #212110;
-  margin-top:25px;
-  color:#ffffff;
-}
-
 
 #header {    margin-top: 50px; } 
 
@@ -299,6 +274,12 @@ p a {
   padding:0;
   margin-top:0;
 }
+
+.ui.menu.grid>.tablet.only.row {
+  padding:0;
+  margin-top:0;
+}
+
 
 /*******************************
           Responsive
