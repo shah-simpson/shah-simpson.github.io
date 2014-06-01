@@ -382,6 +382,8 @@ $.fn.accordion = function(parameters) {
   ;
 };
 
+$('.ui.dropdown').dropdown();
+
 $.fn.accordion.settings = {
   name        : 'Accordion',
   namespace   : 'accordion',
