@@ -279,6 +279,12 @@ p a {
   margin-top:0;
 }
 
+.ui.menu.grid>.mobile.only.row {
+  padding:0;
+  margin-top:0;
+}
+
+
 
 /*******************************
           Responsive
