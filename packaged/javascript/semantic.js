@@ -8,7 +8,7 @@
  * http://opensource.org/licenses/MIT
  *
  */
-
+$('.ui.dropdown').dropdown();
 ;(function ($, window, document, undefined) {
 
 $.fn.accordion = function(parameters) {
