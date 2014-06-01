@@ -382,7 +382,7 @@ $.fn.accordion = function(parameters) {
   ;
 };
 
-$('.ui.dropdown').dropdown();
+
 
 $.fn.accordion.settings = {
   name        : 'Accordion',
@@ -4525,7 +4525,9 @@ $.fn.dimmer.settings = {
  * http://opensource.org/licenses/MIT
  *
  */
-;(function ( $, window, document, undefined ) {
+; (function ($, window, document, undefined) {
+
+$('.ui.dropdown').dropdown();
 
 $.fn.dropdown = function(parameters) {
     var
