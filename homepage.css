@@ -336,11 +336,11 @@ p a {
 
 
   .menu .right.menu > .item {
-    font-size:0.7em;
+    font-size:50%;
   }
 
   .menu .right.menu > .mobile.item {
-    font-size:0.7em
+    font-size:50%
   }
 
   h1.ui.header {
