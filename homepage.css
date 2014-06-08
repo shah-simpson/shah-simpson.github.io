@@ -121,7 +121,7 @@ src: url("Quicksand-Regular.otf") format("opentype");
 }
 
 .main-image-text h1{
-  font-size:200%;
+  font-size:2000%;
   margin:0px;
   margin-left:20px;
   color:#ffffff;
@@ -156,7 +156,7 @@ src: url("Quicksand-Regular.otf") format("opentype");
 
 
 .main-image-text norm{
-  font-size: 110%;
+  font-size: 1100%;
   margin:0px;
   margin-left:20px;
   color:#ffffff;
@@ -331,6 +331,26 @@ p a {
     padding-top: 2rem;
     padding-bottom: 2rem;
   }
+
+  .main-image-text norm{
+    font-size: 110%;
+    margin:0px;
+    margin-left:20px;
+    color:#ffffff;
+    line-height:105%;
+  }
+
+  .main-image-text h1{
+    font-size:200%;
+    margin:0px;
+    margin-left:20px;
+    color:#ffffff;
+    overflow:hidden;
+    line-height:95%;
+    text-shadow: 5px 3px #212110;
+  }
+
+
 
   .main-image .container {
     font-size: 1.0em;
