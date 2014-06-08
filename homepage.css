@@ -324,6 +324,22 @@ p a {
           Responsive
 *******************************/
 
+/* Tablet Only */
+
+@media only screen and (max-width : 1000px) {
+
+  .main-image-text norm{
+    font-size: 250%;
+  }
+
+  .main-image-text h1{
+    font-size:350%;
+    text-shadow: 3px 2px #212110;
+  }
+
+
+}
+
 /* Mobile Only */
 
 @media only screen and (max-width : 768px) {
@@ -404,18 +420,4 @@ p a {
   .selection.list .right.floated {
     display: none;
   }
-}
-
-@media only screen and (max-width : 1000px) {
-
-  .main-image-text norm{
-    font-size: 250%;
-  }
-
-  .main-image-text h1{
-    font-size:350%;
-    text-shadow: 3px 2px #212110;
-  }
-
-
 }
