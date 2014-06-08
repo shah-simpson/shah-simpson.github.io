@@ -337,6 +337,10 @@ p a {
     font-size: 1.0em;
   }
 
+  .menu {
+    font-size:0.7em;
+  }
+
 
   .menu .right.menu > .item {
     font-size:0.7em;
