@@ -121,7 +121,7 @@ src: url("Quicksand-Regular.otf") format("opentype");
 }
 
 .main-image-text h1{
-  font-size:6em;
+  font-size:20%;
   margin:0px;
   margin-left:20px;
   color:#ffffff;
