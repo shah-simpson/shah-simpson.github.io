@@ -121,7 +121,7 @@ src: url("Quicksand-Regular.otf") format("opentype");
 }
 
 .main-image-text h1{
-  font-size:650%;
+  font-size:600%;
   margin:0px;
   margin-left:20px;
   color:#ffffff;
@@ -156,7 +156,7 @@ src: url("Quicksand-Regular.otf") format("opentype");
 
 
 .main-image-text norm{
-  font-size: 400%;
+  font-size: 350%;
   margin:0px;
   margin-left:20px;
   color:#ffffff;
@@ -334,20 +334,11 @@ p a {
 
   .main-image-text norm{
     font-size: 110%;
-    margin:0px;
-    margin-left:20px;
-    color:#ffffff;
-    line-height:105%;
   }
 
   .main-image-text h1{
     font-size:200%;
-    margin:0px;
-    margin-left:20px;
-    color:#ffffff;
-    overflow:hidden;
-    line-height:95%;
-    text-shadow: 5px 3px #212110;
+    text-shadow: 3px 2px #212110;
   }
 
 
@@ -409,5 +400,15 @@ p a {
 }
 
 @media only screen and (max-width : 1000px) {
+
+  .main-image-text norm{
+    font-size: 250%;
+  }
+
+  .main-image-text h1{
+    font-size:350%;
+    text-shadow: 3px 2px #212110;
+  }
+
 
 }
