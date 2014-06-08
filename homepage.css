@@ -9,8 +9,7 @@ body {
 }
 
 body {
-  font-family: 'Oswald', sans-serif;
-  letter-spacing:1.1px;
+  font-family: 'Quicksand', sans-serif;
   background: #FFFFFF;
   margin: 0px;
   padding: 0px;
@@ -26,9 +25,7 @@ body {
   right:0;
   left:0;
   width: 100%;
-  height: 45px;
   z-index: 100;
-  overflow:hidden;
   
 } 
 
@@ -64,6 +61,7 @@ body {
 }
 
 .main-image{
+  margin-top:40px;
   width:100%;
   height:600px;
   background:url(../Site_Images/bg.jpg) no-repeat center center;
@@ -78,7 +76,7 @@ body {
 }
 
 .main-image .container{
-  font-family: 'Oswald', sans-serif;
+  font-family:"CODE";
   overflow:hidden;
   margin-left:25px;
 }
@@ -87,6 +85,11 @@ body {
   text-shadow: 3px 1px #212110;
   margin-top:25px;
 
+}
+
+.mobile-fit-info{
+  margin-top: 10px;
+  width:100%;
 }
 
 
@@ -136,8 +139,7 @@ src: url("Quicksand-Regular.otf") format("opentype");
 }
 
 .main-image-text info{
-  font-family: 'Oswald', sans-serif;
-  letter-spacing:1.1px;
+  font-family: 'Quicksand', sans-serif;
   font-size:35px;
   margin:0px;
   color:#ffffff;
@@ -164,8 +166,7 @@ src: url("Quicksand-Regular.otf") format("opentype");
 
 
 .ui.header {
-  font-family: 'Oswald', sans-serif;
-  letter-spacing:1.1px;
+  font-family: 'Quicksand', sans-serif;
 }
 
 .ui.header,
@@ -272,12 +273,12 @@ p a {
   margin-top:0;
 }
 
-.ui.menu.grid>.mobile.only.row {
+.ui.menu.grid>.tablet.only.row {
   padding:0;
   margin-top:0;
 }
 
-.ui.menu.grid>.tablet.only.row {
+.ui.menu.grid>.mobile.only.row {
   padding:0;
   margin-top:0;
 }
@@ -297,12 +298,12 @@ p a {
   }
 
   .main-image .container {
-    font-size:1.0em;
+    font-size: 1.0em;
   }
 
 
   .menu .right.menu > .item {
-    font-size: 1em;
+    display: none;
   }
 
   .menu .right.menu > .mobile.item {
