@@ -325,11 +325,22 @@ p a {
     margin-left:5px;
     text-shadow: 1px 2px #212110;
   }
-  
-
 
   .main-image .container {
     font-size: 1.0em;
+  }
+
+  .menu {
+    font-size:0.5em;
+  }
+
+
+  .menu .right.menu > .item {
+    font-size:0.7em;
+  }
+
+  .menu .right.menu > .mobile.item {
+    font-size:0.7em
   }
 
   h1.ui.header {
