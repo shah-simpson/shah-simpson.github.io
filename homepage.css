@@ -78,13 +78,18 @@ body {
 .main-image .container{
   font-family:"CODE";
   overflow:hidden;
-  margin-left:25px;
 }
+
 
 .main-image-text{
   text-shadow: 3px 1px #212110;
   margin-top:25px;
 
+}
+
+.mobile-image-text{
+  color: #ffffff;
+  text-shadow: 3px 1px #212110;
 }
 
 .mobile-fit-info{
