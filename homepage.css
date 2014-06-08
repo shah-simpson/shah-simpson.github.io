@@ -339,11 +339,11 @@ p a {
 
 
   .menu .right.menu > .item {
-    display: none;
+    font-size:0.7em;
   }
 
   .menu .right.menu > .mobile.item {
-    display: block;
+    font-size:0.7em
   }
 
   h1.ui.header {
