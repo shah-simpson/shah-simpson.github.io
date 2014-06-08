@@ -88,11 +88,6 @@ body {
 
 }
 
-.mobile-fit-info{
-  margin-top: 10px;
-  width:100%;
-}
-
 
 #header {    margin-top: 50px; } 
 
@@ -117,7 +112,7 @@ src: url("Quicksand-Regular.otf") format("opentype");
 .main-image-text h1{
   font-size:600%;
   margin:0px;
-  margin-left:20px;
+  margin-left:15px;
   color:#ffffff;
   overflow:hidden;
   line-height:95%;
@@ -128,7 +123,7 @@ src: url("Quicksand-Regular.otf") format("opentype");
 .main-image-text norm{
   font-size: 350%;
   margin:0px;
-  margin-left:20px;
+  margin-left:15px;
   color:#ffffff;
   line-height:105%;
 }
@@ -146,7 +141,7 @@ src: url("Quicksand-Regular.otf") format("opentype");
   font-family: 'Quicksand', sans-serif;
   font-size:35px;
   margin:0px;
-  margin-left:20px;
+  margin-left:15px;
   color:#ffffff;
   position:absolute;
   bottom:10px;
@@ -160,15 +155,6 @@ src: url("Quicksand-Regular.otf") format("opentype");
   right:15px;
 
 }
-
-
-.info{
-  position:relative;
-  bottom:0px;
-  font-size:45px;
-  margin:0px;
-}
-
 
 .ui.header {
   font-family: 'Quicksand', sans-serif;
@@ -338,6 +324,7 @@ p a {
   .main-image-text info{
     font-size:100%;
     margin-left:5px;
+    text-shadow: 3px 2px #212110;
 }
 
 
