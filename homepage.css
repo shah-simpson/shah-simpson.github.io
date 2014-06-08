@@ -78,7 +78,7 @@ body {
 .main-image .container{
   font-family:"CODE";
   overflow:hidden;
-  margin-left:100px;
+  margin-left:3%;
 }
 
 
@@ -122,8 +122,6 @@ src: url("Quicksand-Regular.otf") format("opentype");
 
 .main-image-text h1{
   font-size:100px;
-  margin:0px;
-  margin-left:100px;
   color:#ffffff;
   overflow:hidden;
   line-height:95%;
@@ -133,8 +131,6 @@ src: url("Quicksand-Regular.otf") format("opentype");
 
 .main-image-text norm{
   font-size:55px;
-  margin:0px;
-  margin-left:100px;
   color:#ffffff;
   line-height:105%;
 }
@@ -142,8 +138,6 @@ src: url("Quicksand-Regular.otf") format("opentype");
 .main-image-text pop{
   font-weight:900;
   font-size:90px;
-  margin:0px;
-  margin-left:100px;
   color:#779BC3
 
 }
@@ -151,8 +145,6 @@ src: url("Quicksand-Regular.otf") format("opentype");
 .main-image-text info{
   font-family: 'Quicksand', sans-serif;
   font-size:35px;
-  margin:0px;
-  margin-left:100px;
   color:#ffffff;
   position:absolute;
   bottom:10px;
@@ -160,7 +152,6 @@ src: url("Quicksand-Regular.otf") format("opentype");
 }
 
 .main-image-text logo{
-  margin:0px;
   position:absolute;
   bottom:15px;
   right:15px;
