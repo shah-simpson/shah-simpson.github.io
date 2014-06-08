@@ -156,6 +156,14 @@ src: url("Quicksand-Regular.otf") format("opentype");
 
 }
 
+.info{
+  position:relative;
+  bottom:0px;
+  font-size:45px;
+  margin:0px;
+}
+
+
 .ui.header {
   font-family: 'Quicksand', sans-serif;
 }
