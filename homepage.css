@@ -339,6 +339,13 @@ p a {
   .main-image-text h1{
     font-size:200%;
     text-shadow: 3px 2px #212110;
+    margin:0px;
+    margin-left:20px;
+    color:#ffffff;
+    overflow:hidden;
+    line-height:95%;
+    text-shadow: 5px 3px #212110;
+
   }
 
 
