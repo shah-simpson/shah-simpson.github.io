@@ -88,12 +88,6 @@ body {
 
 }
 
-.mobile-image-text{
-  color: #ffffff;
-  text-shadow: 3px 1px #212110;
-  margin-top: 30px;
-}
-
 .mobile-fit-info{
   margin-top: 10px;
   width:100%;
@@ -130,30 +124,6 @@ src: url("Quicksand-Regular.otf") format("opentype");
   text-shadow: 5px 3px #212110;
   
 }
-
-.mobile-image-text h1{
-  font-size: 2.5em;
-  margin:0px;
-  margin-left:20px;
-  color:#ffffff;
-  overflow:hidden;
-  line-height:95%;
-  text-shadow: 5px 3px #212110;
-  
-}
-
-.mobile-image-text p{
-  font-size: 2.5em;
-  margin:0px;
-  margin-left:20px;
-  color:#ffffff;
-  overflow:hidden;
-  line-height:95%;
-  text-shadow: 5px 3px #212110;
-  
-}
-
-
 
 .main-image-text norm{
   font-size: 350%;
@@ -355,13 +325,7 @@ p a {
   .main-image-text h1{
     font-size:200%;
     text-shadow: 3px 2px #212110;
-    margin:0px;
-    margin-left:20px;
-    color:#ffffff;
-    overflow:hidden;
-    line-height:95%;
-    text-shadow: 5px 3px #212110;
-
+    margin-left:10px;
   }
 
 
