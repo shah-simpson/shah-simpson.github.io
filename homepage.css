@@ -142,6 +142,18 @@ src: url("Quicksand-Regular.otf") format("opentype");
   
 }
 
+.mobile-image-text p{
+  font-size: 2.5em;
+  margin:0px;
+  margin-left:20px;
+  color:#ffffff;
+  overflow:hidden;
+  line-height:95%;
+  text-shadow: 5px 3px #212110;
+  
+}
+
+
 
 .main-image-text norm{
   font-size:55px;
