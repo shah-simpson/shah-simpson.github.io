@@ -121,7 +121,7 @@ src: url("Quicksand-Regular.otf") format("opentype");
 }
 
 .main-image-text h1{
-  font-size:20%;
+  font-size:200%;
   margin:0px;
   margin-left:20px;
   color:#ffffff;
@@ -156,7 +156,7 @@ src: url("Quicksand-Regular.otf") format("opentype");
 
 
 .main-image-text norm{
-  font-size: 3em;
+  font-size: 110%;
   margin:0px;
   margin-left:20px;
   color:#ffffff;
