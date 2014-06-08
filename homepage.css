@@ -324,29 +324,12 @@ p a {
     font-size:100%;
     margin-left:5px;
     text-shadow: 1px 2px #212110;
-}
-  
-  .nav{
-    font-size:0.7em;
-
   }
+  
 
 
   .main-image .container {
     font-size: 1.0em;
-  }
-
-  .menu {
-    font-size:0.7em;
-  }
-
-
-  .menu .right.menu > .item {
-    font-size:0.7em;
-  }
-
-  .menu .right.menu > .mobile.item {
-    font-size:0.7em
   }
 
   h1.ui.header {
