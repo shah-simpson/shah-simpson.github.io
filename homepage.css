@@ -307,6 +307,12 @@ p a {
     text-shadow: 3px 2px #212110;
   }
 
+  .main-image-text info{
+    font-size:200%;
+    margin-left:15px;
+}
+
+
 
 }
 
@@ -320,14 +326,19 @@ p a {
 
   .main-image-text norm{
     font-size: 110%;
+    margin-left:5px;
   }
 
   .main-image-text h1{
     font-size:200%;
     text-shadow: 3px 2px #212110;
-    margin-left:10px;
+    margin-left:5px;
   }
 
+  .main-image-text info{
+    font-size:100%;
+    margin-left:5px;
+}
 
 
   .main-image .container {
