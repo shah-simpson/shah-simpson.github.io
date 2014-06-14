@@ -305,6 +305,23 @@ p a {
     margin-left:15px;
 }
 
+/* Small Tablet Only */
+
+@media only screen and (max-width : 800px) {
+
+  .main-image-text norm{
+    font-size: 275%;
+  }
+
+  .main-image-text h1{
+    font-size:400%;
+    text-shadow: 3px 2px #212110;
+  }
+
+  .main-image-text info{
+    font-size:175%;
+    margin-left:15px;
+}
 
 
 }
