@@ -318,12 +318,12 @@ p a {
   }
 
   .main-image-text norm{
-    font-size: 110%;
+    font-size: 1.2em
     margin-left:5px;
   }
 
   .main-image-text h1{
-    font-size:200%;
+    font-size:1.5em
     text-shadow: 3px 2px #212110;
     margin-left:5px;
   }
