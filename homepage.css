@@ -292,11 +292,11 @@ p a {
 @media only screen and (max-width : 1000px) {
 
   .main-image-text norm{
-    font-size: 300%;
+    font-size: 325%;
   }
 
   .main-image-text h1{
-    font-size:400%;
+    font-size:500%;
     text-shadow: 3px 2px #212110;
   }
 
@@ -311,7 +311,7 @@ p a {
 
 /* Mobile Only */
 
-@media only screen and (max-width : 768px) {
+@media only screen and (max-width : 600px) {
   .ui.page.grid.segment {
     padding-top: 2rem;
     padding-bottom: 2rem;
