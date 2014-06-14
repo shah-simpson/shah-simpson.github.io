@@ -292,11 +292,11 @@ p a {
 @media only screen and (max-width : 1000px) {
 
   .main-image-text norm{
-    font-size: 250%;
+    font-size: 300%;
   }
 
   .main-image-text h1{
-    font-size:350%;
+    font-size:400%;
     text-shadow: 3px 2px #212110;
   }
 
